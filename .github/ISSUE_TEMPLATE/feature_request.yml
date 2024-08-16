@@ -1,0 +1,37 @@
+name: "🚀 Improvement Proposal"
+description: "Suggest a new project or enhancement for the B project!"
+labels: ["improvement proposal", "enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Thanks for helping us enhance the B project!  
+        Your input is invaluable in shaping the future of our community-driven projects.
+
+  - type: textarea
+    attributes:
+      label: "What new idea or enhancement are you proposing?"
+      description: "Please describe the project or feature you'd like to see added or improved. The more details, the better!"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: "Why do you think this is important?"
+      description: "Explain why this proposal is beneficial to the B project and its community."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: "Implementation suggestions"
+      description: "If you have any thoughts on how this could be implemented, share them here. Feel free to get creative!"
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: "Additional context"
+      description: "Any other information or context that would be helpful for us to understand the proposal."
+    validations:
+      required: false
