@@ -1,11 +1,11 @@
 name: "🚀 Improvement Proposal"
-description: "Suggest a new project or enhancement for the B project!"
+description: "Suggest a new project or enhancement for the BOSSCoin project!"
 labels: ["improvement proposal", "enhancement"]
 body:
   - type: markdown
     attributes:
       value: |
-        ### Thanks for helping us enhance the B project!  
+        ### Thanks for helping us enhance the BOSSCoin project!  
         Your input is invaluable in shaping the future of our community-driven projects.
 
   - type: textarea
@@ -18,7 +18,7 @@ body:
   - type: textarea
     attributes:
       label: "Why do you think this is important?"
-      description: "Explain why this proposal is beneficial to the B project and its community."
+      description: "Explain why this proposal is beneficial to the BOSSCoin project and its community."
     validations:
       required: true
 
